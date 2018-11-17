@@ -7,11 +7,9 @@ import android.text.Html
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
- * TODO add class description
+ * Activity displaying solution with own tag handler for lists tags.
  */
 class Api21Fix2ndActivity : AppCompatActivity() {
-
-    class Bullet
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -14,7 +14,7 @@ import org.xml.sax.XMLReader
  */
 class LiTagHandler : Html.TagHandler {
     /**
-     * Helper marker class
+     * Helper marker class. Idea stolen from [Html.fromHtml] implementation
      */
     class Bullet
 

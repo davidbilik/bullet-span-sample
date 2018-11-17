@@ -7,7 +7,7 @@ import android.text.Html
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
- * TODO add class description
+ * Activity displaying dummy fix for not present bullets on Api 21
  */
 class Api21Fix1stActivity : AppCompatActivity() {
 

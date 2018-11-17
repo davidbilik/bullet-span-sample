@@ -11,7 +11,7 @@ import android.util.TypedValue
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
- * TODO add class description
+ * Activity displaying solution for incorrectly positioned bullets with non-standard TextView line height.
  */
 class Api25FixActivity : AppCompatActivity() {
 
