@@ -56,7 +56,12 @@ class ImprovedBulletSpan(
         val bottom = bottom
         if ((text as Spanned).getSpanStart(this) == start) {
             val style = paint.style
+            val oldColor = paint.color
+            
             paint.style = Paint.Style.FILL
+            if (color != STANDARD_COLOR) {
+                paint.color = color
+            }
 
             val yPosition = if (layout != null) {
                 val line = layout.getLineForOffset(start)
@@ -82,6 +87,7 @@ class ImprovedBulletSpan(
             }
 
             paint.style = style
+            paint.color = oldColor
         }
     }
 }
